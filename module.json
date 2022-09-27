@@ -1,0 +1,38 @@
+{
+  "id": "pathfinder-espanyol",
+  "name": "pathfinder-espanyol",
+  "title": "Pathfinder 2E español",
+  "description": "Pathfinder Segunda Edición en español.",
+  "version": "0.0.1",
+  "minimumCoreVersion" : "10.284",
+  "compatibleCoreVersion" : 10,
+  "type": "module",
+  "include": [
+    "./lang/**"
+  ],
+  "compatibility": {
+      "minimum": 10,
+      "verified": "10.284"
+  },
+  "author": "Luis Belloch",
+  "authors": [
+      {
+          "name": "Luis Belloch"
+      }
+  ],
+  "languages": [
+      {
+          "lang": "es",
+          "name": "Español",
+          "path": "lang/es.json"
+      }
+  ],
+  "url": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice",
+  "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json",
+  "download": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/jobs/artifacts/4.6.2/raw/dist/dice-so-nice.zip?job=build",
+  "bugs": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/issues",
+  "readme": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/blob/master/README.md",
+  "flags": {
+      "allowBugReporter": true
+  }
+}
