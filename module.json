@@ -1,5 +1,4 @@
 {
-  "id": "pathfinder-espanyol",
   "name": "pathfinder-espanyol",
   "title": "Pathfinder 2E español",
   "description": "Pathfinder Segunda Edición en español.",
@@ -7,13 +6,6 @@
   "minimumCoreVersion" : 9,
   "compatibleCoreVersion" : 10,
   "type": "module",
-  "include": [
-    "./lang/**"
-  ],
-  "compatibility": {
-      "minimum": 10,
-      "verified": "10.284"
-  },
   "author": "Luis Belloch",
   "authors": [
       {
