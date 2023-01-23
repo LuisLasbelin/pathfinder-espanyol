@@ -2,7 +2,7 @@
     "name": "pathfinder-espanyol",
     "title": "Pathfinder 2E español",
     "description": "Pathfinder Segunda Edición en español.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "minimumCoreVersion": 9,
     "compatibleCoreVersion": 10,
     "type": "module",
