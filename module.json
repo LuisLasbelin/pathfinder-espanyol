@@ -2,7 +2,7 @@
     "name": "pathfinder-espanyol",
     "title": "Pathfinder 2E español",
     "description": "Pathfinder Segunda Edición en español.",
-    "version": "0.0.3",
+    "version": "0.1",
     "minimumCoreVersion": 9,
     "compatibleCoreVersion": 10,
     "type": "module",
@@ -24,7 +24,7 @@
     ],
     "url": "https://github.com/Luistorch/pathfinder-espanyol",
     "manifest": "https://github.com/Luistorch/pathfinder-espanyol/blob/master/module.json",
-    "download": "https://github.com/Luistorch/pathfinder-espanyol",
+    "download": "https://github.com/Luistorch/pathfinder-espanyol/archive/refs/tags/v0.1.zip",
     "bugs": "https://github.com/Luistorch/pathfinder-espanyol/issues",
     "readme": "https://github.com/Luistorch/pathfinder-espanyol/blob/master/README.md",
     "flags": {
