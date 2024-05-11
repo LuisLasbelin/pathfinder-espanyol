@@ -205,316 +205,316 @@
       },
       "Craft": {
         "SelectItemDialog": {
-          "CancelButtonLabel": "Cancel",
-          "CraftButtonLabel": "Craft",
-          "DropItemZoneLabel": "Drag item here...",
-          "Title": "Select item to Craft"
+          "CancelButtonLabel": "Cancelar",
+          "CraftButtonLabel": "Artesanía",
+          "DropItemZoneLabel": "Arrastra un objeto aquí...",
+          "Title": "Selecciona objeto para fabricar"
         },
         "SelectSpellDialog": {
-          "CraftButtonLabel": "Craft",
-          "Title": "Select Spell"
+          "CraftButtonLabel": "Artesanía",
+          "Title": "Selecciona Conjuro"
         },
         "Error": {
-          "ItemReferenceMismatch": "Only accepts physical items for Craft from a compendium or the world's Item Directory."
+          "ItemReferenceMismatch": "Sólo acepta objetos físicos para Artesanía de un compendio o del Directorio de Objetos del mundo."
         },
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level + 1 and your proficiency rank in Crafting.",
-          "success": "<strong>Success</strong> Your attempt is successful. Each additional day spent Crafting reduces the materials needed to complete the item by an amount based on your level and your proficiency rank.",
-          "failure": "<strong>Failure</strong> You fail to complete the item. You can salvage the raw materials you supplied for their full value. If you want to try again, you must start over.",
-          "criticalFailure": "<strong>Critical Failure</strong> You fail to complete the item. You ruin 10% of the raw materials you supplied, but you can salvage the rest. If you want to try again, you must start over."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Tu intento tiene éxito. Cada día adicional dedicado a la Artesanía reduce los materiales necesarios para completar el objeto en una cantidad basada en tu nivel + 1 y tu rango de competencia en Artesanía.",
+          "success": "<strong>Éxito</strong> Tu intento tiene éxito. Cada día adicional dedicado a la Artesanía reduce los materiales necesarios para completar el objeto en una cantidad basada en tu nivel y tu rango de competencia.",
+          "failure": "<strong>Fracaso</strong> No consigues completar el objeto. Puedes recuperar las materias primas que has suministrado por su valor total. Si quieres volver a intentarlo, debes empezar de nuevo.",
+          "criticalFailure": "<strong>Fallo crítico</strong> No consigues completar el objeto. Arruinas el 10% de las materias primas que has suministrado, pero puedes salvar el resto. Si quieres volver a intentarlo, debes empezar de nuevo."
         },
-        "Title": "Craft",
+        "Title": "Artesanía",
         "Warning": {
-          "NotPhysicalItem": "Specified item {item} is not a physical item.",
+          "NotPhysicalItem": "El objeto {item} no es un objeto físico.",
           "MissingItem": "Unable to Craft unknown item with ID {uuid}.",
-          "CantAddItem": "Could not add items",
-          "InsufficientCoins": "Insufficient coins"
+          "CantAddItem": "No se han podido añadir objetis",
+          "InsufficientCoins": "Monedas insuficientes"
         },
         "Details": {
-          "Discount": "Discount Per Day:",
-          "DaysForNoCost": "Days until no Additional Cost:",
-          "PayMaterials": "Pay {cost} Material Costs and Craft",
-          "PayFull": "Pay {cost} Full Costs and Craft",
-          "LostMaterials": "Lose {cost} of Materials",
-          "ReceiveItem": "Receive Item"
+          "Discount": "Descuento por día:",
+          "DaysForNoCost": "Días hasta sin Coste Adicional:",
+          "PayMaterials": "Pagar {cost} Costes de materiales y fabricar",
+          "PayFull": "Pagar {cost} Coste completo y fabricar",
+          "LostMaterials": "Pierde {cost} en materiales",
+          "ReceiveItem": "Recibir Objeto"
         },
         "Information": {
-          "PayAndReceive": "{actorName} pays {cost} crafting costs and receives {quantity}x {itemName}.",
-          "ReceiveItem": "{actorName} receives {quantity}x {itemName}.",
-          "LoseMaterials": "{actorName} loses {cost} of materials."
+          "PayAndReceive": "{actorName} paga {cost} gastos de fabricación y recibe {quantity}x {itemName}.",
+          "ReceiveItem": "{actorName} recibe {quantity}x {itemName}.",
+          "LoseMaterials": "{actorName} pierde {cost} en materiales."
         }
       },
       "CommandAnAnimal": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> The animal does as you command on its next turn.",
-          "success": "<strong>Success</strong> The animal does as you command on its next turn.",
-          "failure": "<strong>Failure</strong> The animal is hesitant or resistant, and it does nothing.",
-          "criticalFailure": "<strong>Critical Failure</strong> The animal misbehaves or misunderstands, and it takes some other action determined by the GM."
+          "criticalSuccess": "<strong>Éxito crítico</strong> El animal hace lo que le ordenas en su siguiente turno.",
+          "success": "<strong>Éxito</strong> El animal hace lo que le ordenas en su siguiente turno.",
+          "failure": "<strong>Fracaso</strong> El animal duda o se resiste, y no hace nada.",
+          "criticalFailure": "<strong>Fallo Crítico</strong> El animal se comporta mal o entiende mal, y realiza alguna otra acción determinada por el GM."
         },
-        "Title": "Command an Animal"
+        "Title": "Comandar un animal"
       },
       "CreateADiversion": {
-        "DistractingWords": "Create a Diversion - Distracting Words",
-        "Gesture": "Create a Diversion - Gesture",
+        "DistractingWords": "Crear Distracción - Palabras",
+        "Gesture": "Crear Distracción - Gestos",
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You become @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to each creature whose Perception DC is less than or equal to your result. (The hidden condition allows you to @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} away.) This lasts until the end of your turn or until you do anything except Step or use the @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} or the @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} action of the Stealth skill. If you Strike a creature, the creature remains @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against that attack, and you then become @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}. If you do anything else, you become @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} just before you act unless the GM determines otherwise.",
-          "success": "<strong>Success</strong> You become @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} to each creature whose Perception DC is less than or equal to your result. (The hidden condition allows you to @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} away.) This lasts until the end of your turn or until you do anything except Step or use the @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} or the @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} action of the Stealth skill. If you Strike a creature, the creature remains @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against that attack, and you then become @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}. If you do anything else, you become @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} just before you act unless the GM determines otherwise.",
-          "failure": "<strong>Failure</strong> You don't divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them.",
-          "criticalFailure": "<strong>Critical Failure</strong> You don't divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Te conviertes en @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} para cada criatura cuya DC de Percepción sea menor o igual que tu resultado. (La condición oculta te permite @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esconderte}). Esto dura hasta el final de tu turno o hasta que hagas cualquier cosa excepto Pisar o usar la acción @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Ocultarse} o la acción @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esconder} de la habilidad Sigilo. Si Golpeas a una criatura, la criatura permanece @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Pie Plano} contra ese ataque, y entonces pasas a ser @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado}. Si haces cualquier otra cosa, pasas a ser @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado} justo antes de actuar, a menos que el GM determine lo contrario.",
+          "success": "<strong>Éxito</strong> Te conviertes en @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} para cada criatura cuya DC de Percepción sea menor o igual que tu resultado. (La condición oculta te permite @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esconderte}). Esto dura hasta el final de tu turno o hasta que hagas cualquier cosa excepto Pisar o usar la acción @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Ocultarse} o la acción @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Esconder} de la habilidad Sigilo. Si Golpeas a una criatura, la criatura permanece @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Pie Plano} contra ese ataque, y entonces pasas a ser @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado}. Si haces cualquier otra cosa, pasas a ser @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observado} justo antes de actuar, a menos que el GM determine lo contrario.",
+          "failure": "<strong>Fallo</strong> No desvías la atención de ninguna criatura cuya DC de Percepción supere tu resultado, y esas criaturas son conscientes de que intentabas engañarlas.",
+          "criticalFailure": "<strong>Fallo crítico</strong> No desvías la atención de ninguna criatura cuya DC de Percepción supere tu resultado, y esas criaturas son conscientes de que intentabas engañarlas."
         },
-        "Trick": "Create a Diversion - Trick"
+        "Trick": "Crear Distracción - Truco"
       },
       "Demoralize": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}.",
-          "success": "<strong>Success</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}."
+          "criticalSuccess": "<strong>Éxito crítico</strong> El objetivo pasa a ser @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Asustado 2}.",
+          "success": "<strong>Éxito</strong> El objetivo pasa a ser @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Asustado 1}."
         },
-        "Title": "Demoralize"
+        "Title": "Desmoralizar"
       },
       "Disarm": {
-        "EffectLabel": "Using weapon with loose grip",
+        "EffectLabel": "Usar el arma con la empuñadura floja",
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You knock the item out of the opponent's grasp. It falls to the ground in the opponent's space.",
-          "success": "<strong>Success</strong> You weaken your opponent's grasp on the item. Until the start of that creature's turn, attempts to Disarm the opponent of that item gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item. @UUID[Compendium.pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effect: Disarm (Success)}",
-          "criticalFailure": "<strong>Critical Failure</strong> You lose your balance and become @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} until the start of your next turn."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Derribas el objeto del oponente. Cae al suelo en el espacio del adversario.",
+          "success": "<strong>Éxito</strong> Debilitas el agarre de tu oponente sobre el objeto. Hasta el comienzo del turno de esa criatura, los intentos de Desarmar del oponente de ese objeto ganan un bonificador +2 de circunstancia, y el objetivo sufre un penalizador -2 de circunstancia a los ataques con el objeto u otros chequeos que requieran un agarre firme del objeto. @UUID[Compendium.pf2e.efectos-de-equipo.z3ATL8DcRVrT0Uzt]{Efecto: Desarmar (Éxito)}",
+          "criticalFailure": "<strong>Fallo crítico</strong> Pierdes el equilibrio y pasas a ser @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Pie plano} hasta el inicio de tu siguiente turno."
         },
-        "Title": "Disarm"
+        "Title": "Desarmar"
       },
       "EncouragingWords": {
-        "Title": "Encouraging Words",
-        "ContentMain": "Select a target DC. Remember that you can't attempt a heal above your proficiency. Attempting to do so will downgrade the DC and amount healed to the highest you're capable of.",
-        "ContentLabel1": "Diplomacy DC:",
-        "ContentLabel2": "DC Modifier:",
-        "ContentOption1": "Trained DC 15",
-        "ContentOption2": "Expert DC 20, +5 Stamina",
-        "ContentOption3": "Master DC 30, +15 Stamina",
-        "ContentOption4": "Legendary DC 40, +25 Stamina",
-        "BadArgs": "This action must be performed with exactly one character or NPC.",
-        "NotTrained": "{name} is not trained in Diplomacy and doesn't know how to use Encouraging Words.",
-        "StaminaNotEnabled": "The Stamina variant is not enabled.",
-        "CritSuccess": "Critical Success",
-        "Success": "Success",
-        "Failure": "Failure",
-        "CritFailure": "Critical Failure",
-        "Recovery": "Stamina Recovery",
-        "Damage": "Damage",
-        "Cancel": "Cancel"
+        "Title": "Palabras de Ánimo",
+        "ContentMain": "Selecciona una CD objetivo. Recuerda que no puedes intentar una curación por encima de tu competencia. Si lo intentas, la CD y la cantidad curada se reducirán al máximo que seas capaz de alcanzar.",
+        "ContentLabel1": "CD Diplomacia:",
+        "ContentLabel2": "Modificador a CD:",
+        "ContentOption1": "Entrenado CD 15",
+        "ContentOption2": "Experto CD 20, +5 Aguante",
+        "ContentOption3": "Maestro CD 30, +15 Aguante",
+        "ContentOption4": "Legendario CD 40, +25 Aguante",
+        "BadArgs": "Esta acción debe realizarse exactamente con un personaje o PNJ.",
+        "NotTrained": "{name} no está entrenado en Diplomacia y no sabe usar Palabras de Ánimo",
+        "StaminaNotEnabled": "La variante de Aguante no está activada.",
+        "CritSuccess": "Éxito Crítico",
+        "Success": "Éxito",
+        "Failure": "Fallo",
+        "CritFailure": "Fallo Crítico",
+        "Recovery": "Recuperar Aguante",
+        "Damage": "Daño",
+        "Cancel": "Cancelar"
       },
       "Feint": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You throw your enemy's defenses against you entirely off. The target is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against melee attacks that you attempt against it until the end of your next turn.",
-          "success": "<strong>Success</strong> Your foe is fooled, but only momentarily. The target is @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against the next melee attack that you attempt against it before the end of your current turn.",
-          "criticalFailure": "<strong>Critical Failure</strong> Your feint backfires. You are @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} against melee attacks the target attempts against you until the end of your next turn."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Desbaratas por completo las defensas de tu enemigo contra ti. El objetivo queda @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra los ataques cuerpo a cuerpo que intentes contra él hasta el final de tu siguiente turno.",
+          "success": "<strong>Success</strong> Your foe is fooled, but only momentarily. El objetivo queda @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra el siguiente ataque cuerpo a cuerpo que intentes contra él antes del final de tu turno actual.",
+          "criticalFailure": "<strong>Fallo Crítico</strong> Tu finta resulta fallida. Quedas @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Desprevenido} contra los ataques cuerpo a cuerpo que el objetivo intente contra ti hasta el final de tu siguiente turno."
         },
-        "Title": "Feint"
+        "Title": "Finta"
       },
       "ForceOpen": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You open the door, window, container, or gate and can avoid damaging it in the process.",
-          "success": "<strong>Success</strong> You break the door, window, container, or gate open, and the door, window, container, or gate gains the @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Broken} condition. If it's especially sturdy, the GM might have it take damage but not be broken.",
-          "criticalFailure": "<strong>Critical Failure</strong> Your attempt jams the door, window, container, or gate shut, imposing a -2 circumstance penalty on future attempts to Force it Open."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Abres la puerta, ventana, contenedor o verja y puedes evitar dañarlo en el proceso.",
+          "success": "<strong>Éxito</strong> Rompes la puerta, ventana, contenedor o verja y la puerta, ventana, contenedor o verja obtiene la condición @UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Roto}. Si es especialmente resistente, el GM puede hacer que reciba daño pero que no se rompa.",
+          "criticalFailure": "<strong>Fallo crítico</strong> Tu intento atasca la puerta, ventana, contenedor o compuerta, imponiendo una penalización de circunstancia de -2 a futuros intentos de Forzar su apertura."
         },
-        "Title": "Force Open",
-        "NoCrowbarPenalty": "No Crowbar"
+        "Title": "Forzar apertura",
+        "NoCrowbarPenalty": "Sin Palanca"
       },
       "GatherInformation": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You collect information about the individual or topic. The GM determines the specifics.",
-          "success": "<strong>Success</strong> You collect information about the individual or topic. The GM determines the specifics.",
-          "criticalFailure": "<strong>Critical Failure</strong> You collect incorrect information about the individual or topic."
+          "criticalSuccess": "<strong>Éxito Crítico</strong> Recoges información sobre el individuo o tema. El GM determina los detalles específicos.",
+          "success": "<strong>Éxito</strong> Recoges información sobre el individuo o tema. El GM determina los detalles específicos.",
+          "criticalFailure": "<strong>Fallo crítico</strong> Recoges información incorrecta sobre el individuo o el tema."
         },
-        "Title": "Gather Information"
+        "Title": "Recabar Información"
       },
       "Grapple": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> Your opponent is @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} until the end of your next turn unless you move or your opponent @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}.",
-          "success": "<strong>Success</strong> Your opponent is @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} until the end of your next turn unless you move or your opponent @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}.",
-          "failure": "<strong>Failure</strong> You fail to grab your opponent. If you already had the opponent @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} using a Grapple, those conditions on that creature end.",
-          "criticalFailure": "<strong>Critical Failure</strong> If you already had the opponent @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}, it breaks free. Your target can either grab you, as if it succeeded at using the @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} action against you, or force you to fall and land @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Tu oponente queda @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringido} hasta el final de tu siguiente turno a menos que muevas o tu oponente @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape}.",
+          "success": "<strong>Éxito</strong> Tu oponente queda @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Atrapado} hasta el final de tu siguiente turno a menos que te muevas o tu oponente @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape}.",
+          "failure": "<strong>Fallo</strong> Fallas al agarrar a tu oponente. Si ya tenías al oponente @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado} o @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringido} usando un Agarre, esas condiciones sobre esa criatura terminan.",
+          "criticalFailure": "<strong>Fallo crítico</strong> Si ya tenías al oponente @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Agarrado} o @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restringido}, se libera. Tu objetivo puede agarrarte, como si hubiera tenido éxito usando la acción @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{Agarrar} contra ti, o forzarte a caer y aterrizar @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Tumbado}."
         },
-        "Title": "Grapple"
+        "Title": "Agarrar"
       },
       "Hide": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> If the creature could see you, you're now @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from it instead of observed. If you were @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from or @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} by the creature, you retain that condition.",
-          "success": "<strong>Success</strong> If the creature could see you, you're now @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from it instead of observed. If you were @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from or @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} by the creature, you retain that condition."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Si la criatura podía verte, ahora estás @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} de ella en lugar de observado. Si eras @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} de o @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{No detectado} por la criatura, conservas esa condición.",
+          "success": "<strong>Éxito</strong> Si la criatura podía verte, ahora estás @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} de ella en lugar de observado. Si eras @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} de o @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{No detectado} por la criatura, conservas esa condición."
         },
-        "Title": "Hide"
+        "Title": "Esconderse"
       },
       "HighJump": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> Increase the maximum vertical distance to 8 feet, or increase the maximum vertical distance to 5 feet and maximum horizontal distance to 10 feet.",
-          "success": "<strong>Success</strong> Increase the maximum vertical distance to 5 feet.",
-          "failure": "<strong>Failure</strong> You @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} normally.",
-          "criticalFailure": "<strong>Critical Failure</strong> You don't @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} at all, and instead you fall @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone} in your space."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Aumenta la distancia vertical máxima a 8 pies, o aumenta la distancia vertical máxima a 5 pies y la distancia horizontal máxima a 10 pies.",
+          "success": "<strong>Éxito</strong> Aumenta la distancia vertical máxima a 5 pies.",
+          "failure": "<strong>Fallo</strong> Has @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Saltado} normalmente.",
+          "criticalFailure": "<strong>Fallo Crítico</strong> No consigues @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Saltar} en absoluto, y en su lugar caes @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Tumbado} en tu espacio."
         },
-        "Title": "High Jump"
+        "Title": "Salto alto"
       },
       "Interact": {
-        "Title": "Interact",
-        "Parenthetical": "Interact {purpose}",
+        "Title": "Interactuar",
+        "Parenthetical": "Interactuar {purpose}",
         "Draw1H": {
-          "Title": "Draw (1H)",
-          "Description": "{actor} draws their {weapon}."
+          "Title": "Desenvainar (1H)",
+          "Description": "{actor} desenvaina su {weapon}."
         },
         "Draw2H": {
-          "Title": "Draw (2H)",
-          "Description": "{actor} draws their {weapon}."
+          "Title": "Desenvaina (2H)",
+          "Description": "{actor} desenvaina su {weapon}."
         },
         "PickUp1H": {
-          "Title": "Pick Up (1H)",
-          "Description": "{actor} picks up {weapon} from the ground."
+          "Title": "Recoger (1H)",
+          "Description": "{actor} recoge {weapon} del suelo."
         },
         "PickUp2H": {
-          "Title": "Pick Up (2H)",
-          "Description": "{actor} picks up {weapon} from the ground."
+          "Title": "Recoger (2H)",
+          "Description": "{actor} recoge {weapon} del suelo."
         },
         "Grip": {
-          "Title": "Change Grip (2H)",
-          "Description": "{actor} grips their {weapon} with two hands."
+          "Title": "Cambiar Agarre (2H)",
+          "Description": "{actor} agarra su {weapon} con dos manos."
         },
         "Retrieve1H": {
-          "Title": "Retrieve (1H)",
-          "Description": "{actor} retrieves their {weapon}."
+          "Title": "Recuperar (1H)",
+          "Description": "{actor} recupera su {weapon}."
         },
         "Retrieve2H": {
-          "Title": "Retrieve (1H)",
-          "Description": "{actor} retrieves their {weapon}."
+          "Title": "Recuperar (1H)",
+          "Description": "{actor} recupera su {weapon}."
         },
         "Sheathe": {
-          "Title": "Sheathe",
-          "Description": "{actor} sheathes their {weapon}."
+          "Title": "Envainar",
+          "Description": "{actor} envaina su {weapon}."
         }
       },
       "Impersonate": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You trick the creature into thinking you're the person you're disguised as. You might have to attempt a new check if your behavior changes.",
-          "success": "<strong>Success</strong> You trick the creature into thinking you're the person you're disguised as. You might have to attempt a new check if your behavior changes.",
-          "failure": "<strong>Failure</strong> The creature can tell you're not who you claim to be.",
-          "criticalFailure": "<strong>Critical Failure</strong> The creature can tell you're not who you claim to be, and it recognizes you if it would know you without a disguise."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Engañas a la criatura para que piense que eres la persona de la que te has disfrazado. Puede que tengas que intentar un nuevo chequeo si tu comportamiento cambia.",
+          "success": "<strong>Éxito</strong> Engañas a la criatura para que piense que eres la persona de la que te has disfrazado. Puede que tengas que intentar un nuevo chequeo si tu comportamiento cambia.",
+          "failure": "<strong>Fallo</strong> La criatura puede darse cuenta de que no eres quien dices ser.",
+          "criticalFailure": "<strong>Fallo Crítico</strong> La criatura puede darse cuenta de que no eres quien dices ser, y te reconoce si te conocería sin disfraz."
         },
-        "Title": "Impersonate"
+        "Title": "Suplantar"
       },
       "Lie": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> The target believes your lie.",
-          "success": "<strong>Success</strong> The target believes your lie.",
-          "failure": "<strong>Failure</strong> The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.",
-          "criticalFailure": "<strong>Critical Failure</strong> The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future."
+          "criticalSuccess": "<strong>Éxito crítico</strong> El objetivo cree tu mentira.",
+          "success": "<strong>Éxito</strong> El objetivo cree tu mentira.",
+          "failure": "<strong>Fallo</strong> El objetivo no cree tu mentira y obtiene un bonificador de circunstancia +4 contra tus intentos de Mentir mientras dure la conversación. Además, es más probable que sospeche de ti en el futuro.",
+          "criticalFailure": "<strong>Fallo Crítico</strong> El objetivo no cree tu mentira y obtiene un bonificador de circunstancia +4 contra tus intentos de Mentir mientras dure la conversación. También es más probable que el objetivo desconfíe de ti en el futuro."
         },
-        "Title": "Lie"
+        "Title": "Mentir"
       },
       "LongJump": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> Increase the maximum horizontal distance you @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} to the desired distance.",
-          "success": "<strong>Success</strong> Increase the maximum horizontal distance you @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} to the desired distance.",
-          "failure": "<strong>Failure</strong> You @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} normally.",
-          "criticalFailure": "<strong>Critical Failure</strong> You @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} normally, but then fall and land @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Aumenta la distancia horizontal máxima que @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} hasta la distancia deseada.",
+          "success": "<strong>Éxito</strong> Aumenta la distancia horizontal máxima que @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salta} hasta la distancia deseada.",
+          "failure": "<strong>Fallo</strong> Has @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Saltado} normalmente.",
+          "criticalFailure": "<strong>Fallo Crítico</strong> Das @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Salto} normal, pero luego caes y aterrizas @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Tumbado}."
         },
-        "Title": "Long Jump"
+        "Title": "Salto Largo"
       },
       "MakeAnImpression": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> The target's attitude toward you improves by two steps.",
-          "success": "<strong>Success</strong> The target's attitude toward you improves by one step.",
-          "criticalFailure": "<strong>Critical Failure</strong> The target's attitude toward you decreases by one step."
+          "criticalSuccess": "<strong>Éxito crítico</strong> La actitud del objetivo hacia ti mejora en dos pasos.",
+          "success": "<strong>Éxito</strong> La actitud del objetivo hacia ti mejora un paso.",
+          "criticalFailure": "<strong>Fallo crítico</strong> La actitud del objetivo hacia ti disminuye un paso."
         },
-        "Title": "Make an Impression"
+        "Title": "Causar impresión"
       },
       "ManeuverInFlight": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You succeed at the maneuver.",
-          "success": "<strong>Success</strong> You succeed at the maneuver.",
-          "failure": "<strong>Failure</strong> Your maneuver fails. The GM chooses if you simply can't move or if some other detrimental effect happens. The outcome should be appropriate for the maneuver you attempted (for instance, being blown off course if you were trying to fly against a strong wind).",
-          "criticalFailure": "<strong>Critical Failure</strong> As failure, but the consequence is more dire."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Tienes éxito en la maniobra.",
+          "success": "<strong>Éxito</strong> Tienes éxito en la maniobra.",
+          "failure": "<strong>Fallo</strong> Tu maniobra falla. El GM elige si simplemente no puedes moverte o si sucede algún otro efecto perjudicial. El resultado debe ser apropiado para la maniobra que intentaste (por ejemplo, ser sacado de curso si estabas tratando de volar contra un fuerte viento).",
+          "criticalFailure": "<strong>Fallo crítico</strong> Como el fallo, pero la consecuencia es más nefasta."
         },
-        "Title": "Maneuver in Flight"
+        "Title": "Maniobra de Vuelo"
       },
       "PickALock": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You unlock the lock, or you achieve two successes toward opening a complex lock. You leave no trace of your tampering.",
-          "success": "<strong>Success</strong> You open the lock, or you achieve one success toward opening a complex lock.",
-          "criticalFailure": "<strong>Critical Failure</strong> You break your tools. Fixing them requires using Crafting to @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repair} them or else swapping in replacement picks (costing 3 sp, or 3 gp for infiltrator thieves' tools)."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Desbloqueas la cerradura o consigues dos éxitos para abrir una cerradura compleja. No dejas rastro de tu manipulación.",
+          "success": "<strong>Éxito</strong> Abres la cerradura o consigues un éxito para abrir una cerradura compleja.",
+          "criticalFailure": "<strong>Fallo crítico</strong> Rompes tus herramientas. Arreglarlas requiere usar Artesanía para @UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{Repararlas} o bien cambiarlas por picos de repuesto (cuestan 3 sp, o 3 gp para herramientas de ladrón infiltrador)."
         },
-        "Title": "Pick a Lock"
+        "Title": "Abrir Cerradura"
       },
       "RaiseAShield": {
-        "SingleActionTitle": "Raise a Shield",
-        "ReactionTitle": "Reactive Shield",
-        "Content": "{actor} raises their shield.",
-        "BadArgs": "This action must be performed with exactly one character or NPC.",
-        "NoShieldEquipped": "{actor} must have a shield equipped.",
-        "ShieldIsBroken": "{actor}'s {shield} is broken.",
-        "ShieldIsDestroyed": "{actor}'s {shield} is destroyed."
+        "SingleActionTitle": "Levantar Escudo",
+        "ReactionTitle": "Escudo Reactivo",
+        "Content": "{actor} levanta su escudo.",
+        "BadArgs": "Esta acción debe realizarse exactamente con un personaje o PNJ.",
+        "NoShieldEquipped": "{actor} debe tener un escudo equipado.",
+        "ShieldIsBroken": "{shield} de {actor} está roto.",
+        "ShieldIsDestroyed": "{shield} de {actor} está destruido."
       },
       "Release": {
-        "Title": "Release",
+        "Title": "Soltar",
         "Drop": {
-          "Title": "Drop",
-          "Description": "{actor} drops their {weapon} onto the ground."
+          "Title": "Tirar",
+          "Description": "{actor} tira su {weapon} al suelo."
         },
         "Grip": {
-          "Title": "Change Grip (1H)",
-          "Description": "{actor} releases a hand from their {weapon}."
+          "Title": "Cambiar Agarre (1H)",
+          "Description": "{actor} suelta una mano de su {weapon}."
         }
       },
       "Repair": {
         "Chat": {
-          "ItemRepaired": "{itemName} was repaired for {repairedDamage} points of damage for a total of {afterRepairHitPoints} out of {maximumHitPoints} hit points.",
-          "ItemDamaged": "{itemName} was dealt {damageDealt} points of damage for a total of {afterDamageHitPoints} out of {maximumHitPoints} hit points."
+          "ItemRepaired": "{itemName} ha sido reparado por {repairedDamage} puntos de daño para un total de {afterRepairHitPoints} de {maximumHitPoints} puntos de golpe.",
+          "ItemDamaged": "{itemName} a recibido {damageDealt} puntos de daño para un total de {afterDamageHitPoints} de {maximumHitPoints} puntos de golpe."
         },
         "Error": {
-          "ItemReferenceMismatch": "Only accepts physical items for Repair from an actor."
+          "ItemReferenceMismatch": "Sólo acepta artículos físicos para Reparación de un actor."
         },
         "Labels": {
-          "DamageMitigatedByHardness": "The critically failed Repair attempt caused no damage to the item due to hardness.",
-          "DealItemDamage": "Deal {value} damage to item",
-          "Hardness": "Hardness",
-          "ItemLevelRepairDC": "Item level {level} repair DC",
-          "RestoreItemHitPoints": "Restore {value} Hit Points to item",
-          "RollItemDamage": "Roll {value} damage"
+          "DamageMitigatedByHardness": "El intento de Reparación fallido críticamente no causó ningún daño al objeto debido a la dureza.",
+          "DealItemDamage": "Inflige {value} de daño a un objeto",
+          "Hardness": "Dureza",
+          "ItemLevelRepairDC": "CD de reparación de nivel de objeto {level}",
+          "RestoreItemHitPoints": "Restaura {value} Puntos de Golpe al objeto",
+          "RollItemDamage": "Lanza {value} de daño"
         },
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You restore 10 Hit Points to the item, plus an additional 10 Hit Points per proficiency rank you have in Crafting (a total of 20 HP if you're trained, 30 HP if you're an expert, 40 HP if you're a master, or 50 HP if you're legendary).",
-          "success": "<strong>Success</strong> You restore 5 Hit Points to the item, plus an additional 5 per proficiency rank you have in Crafting (for a total of 10 HP if you are trained, 15 HP if you're an expert, 20 HP if you're a master, or 25 HP if you're legendary).",
-          "criticalFailure": "<strong>Critical Failure</strong> You deal 2d6 damage to the item. Apply the item's Hardness to this damage."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Restauras 10 Puntos de Golpe al objeto, más 10 Puntos de Golpe adicionales por rango de competencia que tengas en Artesanía (un total de 20 PG si estás entrenado, 30 PG si eres experto, 40 PG si eres maestro o 50 PG si eres legendario).",
+          "success": "<strong>Éxito</strong> Restauras 5 Puntos de Golpe al objeto, más 5 adicionales por rango de competencia que tengas en Artesanía (para un total de 10 PG si estás entrenado, 15 PG si eres experto, 20 PG si eres maestro o 25 PG si eres legendario).",
+          "criticalFailure": "<strong>Fallo crítico</strong> Infliges 2d6 puntos de daño al objeto. Aplica la Dureza del objeto a este daño."
         },
         "SelectItemDialog": {
-          "CancelButtonLabel": "Cancel",
-          "RepairButtonLabel": "Repair",
-          "DropItemZoneLabel": "Drag item here...",
-          "Title": "Select item to Repair"
+          "CancelButtonLabel": "Cancelar",
+          "RepairButtonLabel": "Reparar",
+          "DropItemZoneLabel": "Arrastra un objeto aquí...",
+          "Title": "Selecciona un objeto a Reparar"
         },
-        "Title": "Repair",
+        "Title": "Reparar",
         "Warning": {
-          "NotPhysicalItem": "Specified item {item} is not a physical item."
+          "NotPhysicalItem": "El objeto {item} no es un objeto físico."
         }
       },
       "Request": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> The target agrees to your request without qualifications.",
-          "success": "<strong>Success</strong> The target agrees to your request, but they might demand added provisions or alterations to the request.",
-          "failure": "<strong>Failure</strong> The target refuses the request, though they might propose an alternative that is less extreme.",
-          "criticalFailure": "<strong>Critical Failure</strong> Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request."
+          "criticalSuccess": "<strong>Éxito crítico</strong> El objetivo acepta su petición sin reservas.",
+          "success": "<strong>Éxito</strong> El objetivo está de acuerdo con su solicitud, pero podría exigir disposiciones adicionales o alteraciones a la solicitud.",
+          "failure": "<strong>Fallo</strong> El objetivo rechaza la petición, aunque puede proponer una alternativa menos extrema.",
+          "criticalFailure": "<strong>Fallo crítico</strong> El objetivo no sólo rechaza la petición, sino que su actitud hacia ti disminuye un escalón debido a la temeridad de la petición."
         },
-        "Title": "Request"
+        "Title": "Solicitar"
       },
       "Seek": {
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> If you were searching for creatures, any @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} or @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} creature you critically succeeded against becomes @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} by you. If you were searching for an object, you learn its location.",
-          "success": "<strong>Success</strong> If you were searching for creatures, any @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} creature you succeeded against becomes @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from you instead of @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}, and any @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} creature you succeeded against becomes @UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} by you. If you were searching for an object, you learn its location or get a clue to its whereabouts, as determined by the GM."
+          "criticalSuccess": "<strong>Éxito Crítico</strong> Si estabas buscando criaturas, cualquier @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{No detectada} o @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculta} criatura contra la que hayas tenido éxito crítico pasa a ser @UUID[Compendium.pf2e.conditionitems.1 wQY3JYyhMYeeV2G]{Observada} por ti. Si estabas buscando un objeto, aprendes su ubicación.",
+          "success": "<strong>Éxito</strong> Si estabas buscando criaturas, cualquier @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} criatura contra la que hayas tenido éxito pasa a ser @UUID[Compendium.pf2e.conditionitems. iU0fEDdBp3rXpTMC]{Oculto} en lugar de @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{No detectado}, y cualquier @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Oculto} contra el que hayas tenido éxito se convierte en @UUID[Compendium.pf2e.conditionitems.1 wQY3JYyhMYeeV2G]{Observada} por ti. Si estabas buscando un objeto, aprendes su localización u obtienes una pista sobre su paradero, según determine el GM."
         },
-        "Title": "Seek"
+        "Title": "Buscar"
       },
       "SenseDirection": {
         "Modifier": {
-          "NoCompass": "No Compass"
+          "NoCompass": "Sin Brújula"
         },
         "Notes": {
-          "criticalSuccess": "<strong>Critical Success</strong> You get an excellent sense of where you are. If you are in an environment with cardinal directions, you know them exactly.",
-          "success": "<strong>Success</strong> You gain enough orientation to avoid becoming hopelessly lost. If you are in an environment with cardinal directions, you have a sense of those directions."
+          "criticalSuccess": "<strong>Éxito crítico</strong> Tienes una excelente noción de dónde te encuentras. Si te encuentras en un entorno con puntos cardinales, los conoces con exactitud.",
+          "success": "<strong>Éxito</strong> Te orientas lo suficiente como para no perderte irremediablemente. Si te encuentras en un entorno con puntos cardinales, los conoces."
         },
-        "Title": "Sense Direction"
+        "Title": "Averiguar Dirección"
       },
       "SenseMotive": {
         "Notes": {
@@ -4048,7 +4048,7 @@
     "TraitHaunt": "Haunt",
     "TraitHealing": "Healing",
     "TraitHerald": "Herald",
-    "TraitHeritage": "Heritage",
+    "TraitHeritage": "Herencia",
     "TraitHex": "Hex",
     "TraitHobgoblin": "Hobgoblin",
     "TraitHuman": "Human",
@@ -4371,7 +4371,7 @@
     "TraitVersatileFire": "Versatile Fire",
     "TraitVersatileForce": "Versatile Force",
     "TraitVersatileGood": "Versatile Good",
-    "TraitVersatileHeritage": "Versatile Heritage",
+    "TraitVersatileHeritage": "Herenciaa Versátil",
     "TraitVersatileLawful": "Versatile Lawful",
     "TraitVersatileNegative": "Versatile Negative",
     "TraitVersatileP": "Versatile P",
